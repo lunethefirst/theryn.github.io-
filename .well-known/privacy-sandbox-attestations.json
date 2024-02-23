@@ -1,0 +1,39 @@
+{
+	"privacy_sandbox_api_attestations": [
+	  {
+		"attestation_parser_version": "2",
+		"attestation_version": "1",
+		"privacy_policy": [],
+		"ownership_token": "XU5yOPgi0krp3kFjyKuDP6zlDJqNmBOrZEIfKukivOouY14AJceQt4VKzLFsUA2y",
+		"issued_seconds_since_epoch": 1708712019,
+		"enrollment_id": "XVU54",
+		"enrollment_site": "https://theryn.io/",
+		"platform_attestations": [
+		  {
+			"platform": "chrome",
+			"attestations": {
+			  "attribution_reporting_api": {
+				"ServiceNotUsedForIdentifyingUserAcrossSites": true
+			  },
+			  "shared_storage_api": {
+				"ServiceNotUsedForIdentifyingUserAcrossSites": true
+			  },
+			  "private_aggregation_api": {
+				"ServiceNotUsedForIdentifyingUserAcrossSites": true
+			  },
+			  "topics_api": {
+				"ServiceNotUsedForIdentifyingUserAcrossSites": true
+			  },
+			  "protected_audience_api": {
+				"ServiceNotUsedForIdentifyingUserAcrossSites": true
+			  }
+			}
+		  },
+		  {
+			"platform": "android",
+			"attestations": {}
+		  }
+		]
+	  }
+	]
+  }
